@@ -13,7 +13,7 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$ServerJsonPath,
     
-    [string]$InternalRegistry = "https://mcp-registry-app-tst.proudisland-2110e9aa.westeurope.azurecontainerapps.io/"
+    [string]$InternalRegistry = ""
 )
 
 function Write-Step { Write-Host "▶ $args" -ForegroundColor Cyan }
